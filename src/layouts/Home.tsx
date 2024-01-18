@@ -1,9 +1,9 @@
-import Window from "../components/Window";
+import CounterPage from "../components/CounterPage";
 
 const Hoem: React.FC = () => {
   return (
     <div>
-        <Window />
+        <CounterPage />
     </div>
   );
 };
