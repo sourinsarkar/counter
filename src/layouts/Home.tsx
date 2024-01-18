@@ -2,7 +2,7 @@ import CounterPage from "../components/CounterPage";
 
 const Home: React.FC = () => {
   return (
-    <div className="h-screen flex bg-gray-400">
+    <div className="h-screen flex justify-center">
         <CounterPage />
     </div>
   );
