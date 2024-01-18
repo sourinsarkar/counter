@@ -18,7 +18,7 @@ const CounterPage: React.FC = () => {
 
       <div className="flex justify-between items-center relative">
         <img src="/images/counterHolderImage.svg" alt="Increase" className="w-[400px] h-[400px]" />
-        <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">{counter}</p>
+        <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-semibold text-9xl">{counter}</p>
       </div>
 
       <div onClick={addValue} className="flex justify-center items-center w-[140px] h-[140px] relative">
