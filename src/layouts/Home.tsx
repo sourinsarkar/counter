@@ -1,11 +1,11 @@
 import CounterPage from "../components/CounterPage";
 
-const Hoem: React.FC = () => {
+const Home: React.FC = () => {
   return (
-    <div>
+    <div className="h-screen flex justify-center">
         <CounterPage />
     </div>
   );
 };
 
-export default Hoem;
+export default Home

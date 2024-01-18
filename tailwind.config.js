@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'circle': "url('/images/circle.png')",
+        'counterContainer': "url('/images/counterHolderImage.svg')",
+      }
+    },
   },
   plugins: [],
 }
